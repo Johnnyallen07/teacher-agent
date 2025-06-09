@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Integral of sin(x)",
+    "query": "Compute integral of sin(x) over [0, 2*pi]",
+    "input": {
+      "formatted_question": {
+        "categories": ["Calculus", "Trigonometry"],
+        "goal": "Compute integral of sin(x) over [0, 2*pi]",
+        "payload": "\\int_0^\\2*pi \\sin(x) \\,dx"
+      }
+    },
+    "reference": "0",
+    "expected_tool_use": [],
+    "expected_response_contains": ["0"]
+  }
+]
