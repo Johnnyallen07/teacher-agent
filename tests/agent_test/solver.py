@@ -1,12 +1,13 @@
 import asyncio
 from google.adk.evaluation.agent_evaluator import AgentEvaluator
 from dotenv import load_dotenv
-
-# Load environment variables (e.g., API keys)
+import os
 load_dotenv()
 
 from pathlib import Path
-
+#
+# credential_path = "C:/Users/johnn/Desktop/Five Stars Technology/feature-refs/teacher-agent-template/tests/agent_test/solver.test.json"
+# os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = credential_path
 
 def test_solver_integral_of_sin_x():
     """

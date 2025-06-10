@@ -1,7 +1,6 @@
-from google.adk.agents import LlmAgent
-
 from teacher_agent.config import GEMINI_2_FLASH
 from teacher_agent.tools.algebraic_calculator import *
+from google.adk.agents import LlmAgent
 from dotenv import load_dotenv
 load_dotenv()
 
